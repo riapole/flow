@@ -53,3 +53,12 @@ h2 {
   font-size: 18px;
   color: #333;
 }
+a {
+  color: #2f2f2f;
+  text-decoration: none;
+  border-bottom: 1px solid #bbb;
+}
+
+a:hover {
+  opacity: 0.6;
+}
