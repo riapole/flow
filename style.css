@@ -15,8 +15,19 @@ background-attachment: fixed;
   margin: 100px auto;
   padding: 40px;
   background: rgba(248, 246, 242, 0.88);
-
+box-shadow: 0 4px 30px rgba(0,0,0,0.05);
+  border-radius: 6px;
   backdrop-filter: blur(4px);
+  @media (max-width: 768px) {
+  .container {
+    margin: 40px 20px;
+    padding: 25px;
+  }
+
+  h1 {
+    font-size: 40px;
+  }
+}
 }
 
 h1 {
