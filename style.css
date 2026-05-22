@@ -1,9 +1,9 @@
 body {
   font-family: "Times New Roman", serif;
- background-image: url("background.jpg");
-background-size: cover;
-background-position: center;
-background-attachment: fixed;
+  background-image: url("background.jpg");
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
   color: #1f1f1f;
   margin: 0;
   padding: 0;
@@ -15,10 +15,12 @@ background-attachment: fixed;
   margin: 100px auto;
   padding: 40px;
   background: rgba(248, 246, 242, 0.88);
-box-shadow: 0 4px 30px rgba(0,0,0,0.05);
+  box-shadow: 0 4px 30px rgba(0,0,0,0.05);
   border-radius: 6px;
   backdrop-filter: blur(4px);
-  @media (max-width: 768px) {
+}
+
+@media (max-width: 768px) {
   .container {
     margin: 40px 20px;
     padding: 25px;
@@ -27,7 +29,6 @@ box-shadow: 0 4px 30px rgba(0,0,0,0.05);
   h1 {
     font-size: 40px;
   }
-}
 }
 
 h1 {
@@ -71,6 +72,7 @@ h2 {
   color: #2d2d2d;
   margin-bottom: 24px;
 }
+
 a {
   color: #2f2f2f;
   text-decoration: none;
@@ -80,6 +82,7 @@ a {
 a:hover {
   opacity: 0.6;
 }
+
 nav {
   margin-bottom: 60px;
 }
@@ -95,6 +98,7 @@ nav a {
 nav a:hover {
   opacity: 0.5;
 }
+
 ::selection {
   background: #d8d2c8;
 }
